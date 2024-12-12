@@ -14,7 +14,7 @@ ALWAYS
 
 	/* Converts tra files to UTF-8 */
 	ACTION_DEFINE_ARRAY T_reload BEGIN setup END
-	ACTION_DEFINE_ARRAY T_noconvert BEGIN END
+	ACTION_DEFINE_ARRAY T_noconvert BEGIN install END
 	LAF HANDLE_CHARSETS
 		INT_VAR
 			infer_charsets = 1
@@ -42,7 +42,10 @@ LANGUAGE ~Russian (translation by MacksimSl)~
          ~russian~
          ~tnoober/tra/russian/setup.tra~
 
-
+LANGUAGE ~Schinese (translation by eva000as)~
+         ~schinese~
+         ~tnoober/tra/schinese/install.tra~
+		 
 /* ==================================== *
  *         The Sword of Noober          *
  * ==================================== */
